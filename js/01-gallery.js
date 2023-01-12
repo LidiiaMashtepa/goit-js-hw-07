@@ -17,12 +17,6 @@ function onClick(evt) {
 
   instance.show();
 }
-function onEscapeButton(evt) {
-  if (evt.key === "Escape") {
-    console.log("blin");
-    // instance.close();
-  }
-}
 function createCard(images) {
   return images
     .map(({ preview, original, description }) => {
